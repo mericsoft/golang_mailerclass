@@ -15,7 +15,8 @@ example
 		Subject:     "test message",
 		ContentType: "text/html",
 		Body:        "this is an <b>example</b> message",
-         File :       "/home/aaa/Pictures/abc.png",  
+                File :       "/home/aaa/Pictures/abc.png",  
+	        ReturnMessage:"your mail has been sent",
 	}
 	
 	fmt.Println(maliim.SendMail())
