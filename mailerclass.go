@@ -20,7 +20,7 @@ type Mailer struct {
 	Subject       string
 	Body          string
 	File          string // need ful path
-	ContentType   string // for html : text/ftml
+	ContentType   string // for html : text/html
 	ReturnMessage string
 }
 
